@@ -1,16 +1,15 @@
 <html>
-  <head>
-  <title></title>
+ <head>
 </head>
 <script type="text/javascript">
-        function Copy() 
-        {
-            var Url = document.getElementById("paste-box");
-            Url.value = window.location.href;
-            Url.focus();
-            Url.select();  
-            document.execCommand("Copy");
-        }
+function Copy()
+{
+var Url = document.getElementById("paste-box");
+Url.value = window.location.href;
+Url.focus();
+Url.select();
+document.execCommand("Copy");
+}
 </script>
 <body>
 <input type="button" value="Copy Url" onclick="Copy();" /> Paste: <textarea id="paste-box" rows="1" cols="30"></textarea>
