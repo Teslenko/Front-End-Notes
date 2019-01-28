@@ -4,11 +4,12 @@
 <script type="text/javascript">
 function Copy()
 {
-var Url = document.getElementById("paste-box");
-Url.value = window.location.href;
-Url.focus();
-Url.select();
+var url = document.getElementById("paste-box");
+url.value = window.location.href;
+url.focus();
+url.select();
 document.execCommand("Copy");
+alert("Copied the CaseId: " + url.value);
 }
 </script>
 <body>
