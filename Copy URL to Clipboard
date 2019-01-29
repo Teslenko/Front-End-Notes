@@ -13,6 +13,6 @@ alert("Copied the CaseId: " + url.value);
 }
 </script>
 <body>
-<input type="button" value="Copy Url" onclick="Copy();" /> Paste: <textarea id="paste-box" rows="1" cols="30"></textarea>
+<input type="button" value="Copy Url" onclick="Copy();"> Paste: <textarea id="paste-box" rows="1" cols="30"></textarea>
 </body>
 </html>
